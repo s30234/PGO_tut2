@@ -6,7 +6,7 @@ import java.util.Map;
 public class task2 {
     public static void main(String[] args) {
     int[] arr = {3, 3, 3, 2, 2};
-    System.out.println(findDominant(arr)); // Output: 3
+    System.out.println(findDominant(arr));
 }
     public static int findDominant(int[] array) {
         Map<Integer, Integer> countMap = new HashMap<>();
